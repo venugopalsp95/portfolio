@@ -25,3 +25,6 @@
 .project-card .buttons {
   margin-top: 1rem;
 }
+.project-card .buttons a {
+  width: 100%;
+}

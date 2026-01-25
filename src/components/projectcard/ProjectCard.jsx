@@ -12,16 +12,12 @@ const ProjectCard = ({ project }) => {
         ))}
       </ul>
       <div className="buttons">
-        <button>
-          <a href={project.liveLink} target="_blank">
-            View Live
-          </a>
-        </button>
-        <button>
-          <a href={project.githubLink} target="_blank">
-            GitHub
-          </a>
-        </button>
+        <a className="button" href={project.liveLink} target="_blank">
+          View Live
+        </a>
+        <a className="button" href={project.githubLink} target="_blank">
+          GitHub
+        </a>
       </div>
     </div>
   );

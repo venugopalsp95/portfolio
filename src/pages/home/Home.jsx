@@ -20,10 +20,11 @@ const Home = () => {
           <li>Always learning and evolving</li>
         </ul>
         <div className="buttons">
-          <button>
-            <a href="#project">View Projects</a>
-          </button>
-          <button>Download Resume</button>
+          <a className="button" href="#project">
+            View Projects
+          </a>
+
+          <a className="button">Download Resume</a>
         </div>
       </div>
       <div className="home-image">
