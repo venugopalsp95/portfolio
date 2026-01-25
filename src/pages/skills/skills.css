@@ -1,0 +1,21 @@
+.skill-section {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill-section ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  flex-basis: calc(50% - 10px);
+}
+
+@media screen and (min-width: 1020px) {
+  .skill-section ul {
+    gap: 4rem;
+  }
+}

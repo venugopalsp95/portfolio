@@ -1,0 +1,56 @@
+#contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+}
+.error {
+  color: red;
+  padding-bottom: 0.5rem;
+}
+#contact .contact-me {
+  margin-top: 1rem;
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+.contact-link {
+  width: 50%;
+}
+.contact-link .email {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.contact-link .email .link-detail a {
+  color: orange;
+}
+.contact-link .email img {
+  width: 50px;
+}
+#contact .contact-me form {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+#contact .contact-me form input,
+textarea {
+  border: 1px solid orange;
+  outline: none;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+@media screen and (max-width: 768px) {
+  #contact .contact-me {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .contact-link {
+    width: 100%;
+  }
+  #contact .contact-me form {
+    width: 100%;
+  }
+}

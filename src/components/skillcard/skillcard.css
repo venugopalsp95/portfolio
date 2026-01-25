@@ -1,0 +1,13 @@
+.skill-card {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+.skill-card img {
+  height: 100px;
+}
+.skill-card p {
+  font-weight: bold;
+}

@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Preahvihear&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100%;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1a0b2e;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+#root {
+  width: 100%;
+}
+a {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  cursor: pointer;
+  color: orange;
+}
+button {
+  border: none;
+  outline: none;
+  background: orange;
+  padding: 0.5rem 1rem;
+  color: black;
+  border-radius: 0.2rem;
+  font-weight: bold;
+}
+button:hover {
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    padding: 1.2rem;
+  }
+}
