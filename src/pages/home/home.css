@@ -33,11 +33,7 @@ ul li {
   display: flex;
   gap: 1rem;
 }
-.buttons button:hover,
-.buttons button a:hover {
-  transform: scale(1.1);
-  transition: 0.2s;
-}
+
 .buttons a {
   color: black;
 }

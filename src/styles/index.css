@@ -33,7 +33,7 @@ a:hover {
 }
 button {
   border: none;
-  outline: none;
+  outline: 1px solid transparent;
   background: orange;
   padding: 0.5rem 1rem;
   color: black;
@@ -42,6 +42,7 @@ button {
 }
 button:hover {
   cursor: pointer;
+  outline: 1px solid orange;
 }
 
 li {

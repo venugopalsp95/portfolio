@@ -9,16 +9,16 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="navbar-logo">VENUGOPAL S P</div>
       <ul className={`navlinks ${isOpen ? "navlinks-mobile" : ""}`}>
-        <a href="#home">
+        <a href="#home" onClick={() => setIsOpen(false)}>
           <li>Home</li>
         </a>
-        <a href="#skills">
+        <a href="#skills" onClick={() => setIsOpen(false)}>
           <li>Skills</li>
         </a>
-        <a href="#project">
+        <a href="#project" onClick={() => setIsOpen(false)}>
           <li>Projects</li>
         </a>
-        <a href="#contact">
+        <a href="#contact" onClick={() => setIsOpen(false)}>
           <li>Contact</li>
         </a>
       </ul>
