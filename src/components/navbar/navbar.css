@@ -17,6 +17,11 @@
 .mobile-menu-icon {
   display: none;
   background: none;
+  border: none;
+  outline: none;
+}
+.mobile-menu-icon:hover {
+  cursor: pointer;
 }
 
 @media screen and (max-width: 768px) {
@@ -30,27 +35,26 @@
     position: absolute;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     gap: 0;
-
-    height: 35%;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
     right: 0;
     background-color: #311a50;
     top: 5rem;
     width: 50%;
     transition: all 0.3s ease;
   }
-
+  .navlinks-mobile a li {
+    width: 100%;
+    text-align: center;
+  }
   .navlinks-mobile li {
     width: 120px;
-    padding: 0.8rem;
-    text-align: center;
+    padding: 1rem;
+
     font-size: 1.5rem;
   }
-  /* .navlinks-mobile li:hover {
-    background-color: #1a0b2e;
-  } */
 }
 
 @media screen and (max-width: 400px) {

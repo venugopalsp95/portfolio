@@ -1,4 +1,5 @@
 import hero from "./../../assets/hero.png";
+import pdf from "../../assets/venugopal.pdf";
 import "./home.css";
 const Home = () => {
   return (
@@ -24,7 +25,9 @@ const Home = () => {
             View Projects
           </a>
 
-          <a className="button">Download Resume</a>
+          <a href={pdf} download="venugopal.pdf" className="button">
+            Download Resume
+          </a>
         </div>
       </div>
       <div className="home-image">

@@ -117,7 +117,7 @@ const Contact = () => {
             onChange={handleChange}
           ></textarea>
           {errors.message && <span className="error">{errors.message}</span>}
-          <button type="submit" disabled={loading}>
+          <button className="button" type="submit" disabled={loading}>
             {loading ? "Sending" : "Send Message"}
           </button>
         </form>

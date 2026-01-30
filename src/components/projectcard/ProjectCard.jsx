@@ -2,13 +2,12 @@ import "./projectcard.css";
 const ProjectCard = ({ project }) => {
   return (
     <div className="project-card">
+      <img src={project.image} alt={project.title} />
       <h3>{project.title}</h3>
 
-      <img src={project.image} alt={project.title} />
-
       <ul className="features">
-        {project.features.map((feature) => (
-          <li>{feature}</li>
+        {project.features.map((feature, index) => (
+          <li key={index}>{feature}</li>
         ))}
       </ul>
       <div className="buttons">
