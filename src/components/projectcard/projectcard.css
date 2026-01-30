@@ -6,7 +6,8 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 500px;
+  height: 520px;
+  gap: 0.5rem;
 }
 
 .project-card img {
@@ -15,15 +16,19 @@
   border-top-left-radius: 0.5rem;
   border-top-right-radius: 0.5rem;
 }
+.project-card h3 {
+}
 
 .project-card .features {
   /* display: flex; */
   flex-direction: column;
   height: 40%;
+  padding: 0 0.5rem;
 }
 
 .project-card .features li {
   font-size: 0.8rem;
+  list-style: circle;
 }
 .project-card .buttons {
   margin-top: 1rem;

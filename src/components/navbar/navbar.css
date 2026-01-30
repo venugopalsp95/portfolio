@@ -40,12 +40,16 @@
     justify-content: center;
     align-items: center;
     right: 0;
-    background-color: #311a50;
+    background-color: orange;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
     top: 5rem;
     width: 50%;
     transition: all 0.3s ease;
   }
   .navlinks-mobile a li {
+    color: black;
+    font-weight: bold;
     width: 100%;
     text-align: center;
   }
