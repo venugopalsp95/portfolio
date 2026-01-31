@@ -14,7 +14,7 @@ const ProjectCard = ({ project }) => {
         <a className="button" href={project.liveLink} target="_blank">
           View Live
         </a>
-        <a className="button" href={project.githubLink} target="_blank">
+        <a className="button " href={project.githubLink} target="_blank">
           GitHub
         </a>
       </div>
