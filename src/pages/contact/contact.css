@@ -23,7 +23,7 @@
   gap: 2rem;
 }
 .contact-link .email .link-detail a {
-  color: orange;
+  color: var(--primary-color);
 }
 .contact-link .email img {
   width: 50px;
@@ -36,7 +36,7 @@
 
 #contact .contact-me form input,
 textarea {
-  border: 1px solid orange;
+  border: 1px solid var(--primary-color);
   outline: none;
   padding: 1rem;
   border-radius: 0.5rem;

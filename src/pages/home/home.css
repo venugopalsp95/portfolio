@@ -16,7 +16,7 @@
 .home-details h1 span {
   font-family: "Preahvihear", sans-serif;
   font-size: 2rem;
-  color: orange;
+  color: var(--primary-color);
 }
 .home-details p,
 li {

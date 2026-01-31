@@ -28,6 +28,7 @@ body {
 }
 #root {
   width: 100%;
+  --primary-color: #00ffff;
 }
 a {
   list-style: none;
@@ -37,12 +38,12 @@ a {
 }
 a:hover {
   cursor: pointer;
-  color: orange;
+  color: var(--primary-color);
 }
 .button {
   border: none;
   outline: 1px solid transparent;
-  background: orange;
+  background: var(--primary-color);
   padding: 0.5rem 1rem;
   color: black;
   border-radius: 0.2rem;
@@ -51,7 +52,7 @@ a:hover {
 }
 .button:hover {
   cursor: pointer;
-  outline: 1px solid orange;
+  outline: 1px solid var(--primary-color);
 }
 
 li {
