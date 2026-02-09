@@ -10,6 +10,10 @@
 html {
   scroll-behavior: smooth;
 }
+input,
+textarea {
+  font-family: "Roboto", sans-serif;
+}
 body {
   width: 100vw;
   height: 100%;
