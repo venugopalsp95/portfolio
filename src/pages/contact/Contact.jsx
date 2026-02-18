@@ -70,11 +70,11 @@ const Contact = () => {
             <div className="link-detail">
               <p>Email:</p>
               <a
-                href="mailto:venugopalsp.95@gmail.com"
+                href="mailto:venugopalsp95@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                venugopalsp.95@gmail.com
+                venugopalsp95@gmail.com
               </a>
             </div>
           </div>
